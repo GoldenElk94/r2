@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.main {
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background-color: rgba(176,238,210,0.82);
+	padding: 10px 0;
+}
+
+h1 {
+	text-align: center;
+	color: rgba(37,225,7,1.00);
+}
+
+.two {
+	position: relative;
+	margin-top: 10px;
+	height: auto;
+	width: 100%;
+	background-color: rgba(176,238,210,0.82);
+	float: left;
+}
+
+.four {
+	position: relative;
+    height: 150px;
+    width: 25%;
+    color: rgba(37,225,7,1.00);
+    float: left;
+    display: inline-block;
+    padding: 5px;
+    background-color: yellow;
+    /* background-color: white; */
+    margin: 8.5px;
+}
+
+.five {
+	position: relative;
+	height: 500px;
+    width: 25%;
+    color: rgba(37,225,7,1.00);
+    float: left;
+    display: inline-block;
+    padding: 5px;
+    background-color: yellow;
+    /* background-color: white; */
+    margin: 8.5px;
+	
+}
+
+.bigboy {
+	width: 50%;
+	
+	
+}
+
+@media (min-width: 768px) {
+	.four {
+		width: 12.5%;
+	}
+	
+	.five {
+		width: 12.5%;
+	}
+	.bigboy {
+		width: 41%;
+	}
+}
